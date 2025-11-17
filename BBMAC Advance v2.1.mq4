@@ -32,11 +32,11 @@
 
 //--- Display Settings
 input group "==== Display Settings ===="
-color   Col_BB_UpperLower = C'50,50,50';
-color   Col_BB_Middle     = C'81,0,81';
-color   Col_MA_High       = C'98,0,0';
-color   Col_MA_Low        = C'0,77,0';
-color   Col_EMA50         = clrDimGray;
+input color   Col_BB_UpperLower = C'50,50,50';  // BB Upper/Lower Color
+input color   Col_BB_Middle     = C'81,0,81';   // BB Middle Color
+input color   Col_MA_High       = C'98,0,0';    // LWMA High Color
+input color   Col_MA_Low        = C'0,77,0';    // LWMA Low Color
+input color   Col_EMA50         = clrDimGray;   // EMA50 Color
 input int     Width_BB         = 2;        // BB Line Width (1-5)
 input int     Width_MA5        = 2;        // LWMA5 Width (1-5)
 input int     Width_MA10       = 1;        // LWMA10 Width (1-5)
